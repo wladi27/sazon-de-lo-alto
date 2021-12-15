@@ -1,12 +1,11 @@
 let items = {
-  "1": [3, "Arroz Chino - Especial de la Casa"],
-  "2": [4, "Arroz Chino - Muzarella Grande"],
-  "3": [4.5, "Arroz Chino - Muzarella y Jamon Chica"],
-  "4": [5.5, "Arroz Chino - Muzarella y Jamon Grande"],
-  "5": [6, "Arroz Chino - Americana Chica"],
-  "6": [450, "Arroz Chino - Americana Grande"],
-  "7": [350, "Arroz Chino - Verdura Chica"],
-  "8": [415, "Arroz Chino - Verdura Grande"]
+  "1": [3, "Arroz Chino - Especial de la Casa I"],
+  "2": [4, "Arroz Chino - Especial de la Casa II"],
+  "3": [4.5, "Arroz Chino - Especial de la Casa III"],
+  "4": [5.5, "Arroz Chino - Combo I"],
+  "5": [6, "Arroz Chino - Combo II"],
+  "7": [6, "Arroz Chino - Combo I"],
+  "8": [6, "Arroz Chino - Combo II"]
 };
 
 
