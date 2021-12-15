@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Reboot -->
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <!-- Master css -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+
+  <title>Ticket del pedido</title>
+  <meta property="og:image" content="./img/background.jpg">
+</head>
+
+<body>
+  <img class="background" src="./img/background.jpg" alt="">
+  <div class="container">
+    <h2 class="ticket__header">Detalles de pedido</h2>
+    <div class="ticket__container">
+
+
+      <div class="ticket">
+
+        <div id="articulos-seleccionados" class="ticket__section">
+          <h3>Articulos seleccionados:</h3>
+
+        </div>
+        <div id="aclaraciones-sobre-pedido" class="ticket__section">
+          <h3>Aclaraciones: </h3>
+          <p id="txt-i"></p>
+        </div>
+        <div class="ticket__dinero">
+          <p>Total: <i id="monto-total"></i></p>
+          <p>Paga con: <i id="txt-c"></i></p>
+        </div>
+
+        <div class="informacion-comprador">
+          <h3>Informacion del comprador:</h3>
+          <p>Nombre: <i id="txt-d"></i></p>
+          <p>Telefono: <i id="txt-e"></i></p>
+          <p>Direccion: Calle <i id="txt-f"></i> N° <i id="txt-g"></i> e/ <i id="txt-h"></i>
+          </p>
+          <p>Metodo de pago: <i id="txt-b"></i></p>
+          <p>Metodo de entrega: <i id="txt-a"></i></p>
+        </div>
+
+
+        <!-- btn enviar-->
+        <button id="btn-enviar-pedido">enviar pedido</button>
+      </div>
+      <p id="test"></p>
+      <a href="./index.html">Pagina principal</a>
+    </div>
+  </div>
+  <!-- Javascript files-->
+  <script src="index.js"></script>
+  <script>
+    ticket.init();
+  </script>
+</body>
+
+</html>
