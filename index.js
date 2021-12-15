@@ -4,7 +4,7 @@ let items = {
   "3": [4.5, "Arroz Chino - Especial de la Casa III"],
   "4": [5.5, "Arroz Chino - Combo I"],
   "5": [6, "Arroz Chino - Combo II"],
-  "7": [6, "Arroz Chino - Combo I"],
+  "7": [5.5, "Arroz Chino - Combo I"],
   "8": [6, "Arroz Chino - Combo II"]
 };
 
