@@ -1,8 +1,8 @@
 let items = {
   "1": [3, "Arroz Chino - Especial de la Casa I"],
-  "2": [4, "Arroz Chino - Especial de la Casa II"],
-  "3": [4.5, "Arroz Chino - Especial de la Casa III"],
-  "4": [5.5, "Arroz Chino - Combo I"],
+  "3": [4, "Arroz Chino - Especial de la Casa II"],
+  "4": [4.5, "Arroz Chino - Especial de la Casa III"],
+//   "4": [5.5, "Arroz Chino - Combo I"],
   "5": [5.5, "Arroz Chino - Combo II"],
   "7": [5.5, "Arroz Chino - Combo I"],
   "8": [6, "Arroz Chino - Combo II"]
