@@ -1,0 +1,25 @@
+@media (min-width: 576px) {
+  h1 {
+    margin: 0 $padDesktop 4rem $padDesktop;
+  }
+
+  .p__como-funciona {
+    padding: 0 $padDesktop;
+  }
+
+  .item {
+    margin: 0 $padDesktop;
+  }
+
+  .opciones__container {
+    margin: 0 $padDesktop;
+  }
+
+  form {
+    margin: 0 $padDesktop;
+  }
+
+  .ticket__container {
+    margin: 0 $padDesktop;
+  }
+}

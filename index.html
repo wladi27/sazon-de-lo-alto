@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sazón de lo Alto</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="white"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Sazón de lo Alto">
+  <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+  <!-- Reboot -->
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <!-- Master css -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <title>Pedido por whatsapp</title>
+  <meta property="og:image" content="/img/background.jpg">
+</head>
+<body class="fullscreen">
+  <div class="container">
+  <img class="background" src="./img/background.jpg" alt="">
+  <div class="container">
+    <img class="img-header" src="img/header.jpg" alt="">
+
+    <h1>Sazón de lo Alto</h1>
+    <div class="p__como-funciona">
+      <h3>¿COMO FUNCION LA APP?</h3>
+      <p>Simplemente elegi los productos que
+        quieras comprar, la forma de envio, la
+        forma en que queres pagar y rellena el
+        formulario con tus datos, una vez que
+        tengas todo listo, envia la informacion para
+        hacer el ticket de compra, luego el pedido
+        se envia directamente por whatsapp.
+      </p>
+    </div>
+
+    <form id="enviar" action="./ticket.html">
+      <h2 class="category-title">Arroz Chino</h2>
+      <!-- muzarella -->
+      <div class="item__container">
+        <div class="item">
+          <!-- item title -->
+          <h3>Especial de la Casa I</h3>
+          <!-- item descripcion -->
+          <p class="item__description">Arroz, Carne y Jamón.</p>
+          <div class="selector__container">
+            <div class="selector">
+              <!-- selector name chica -->
+              <p class="selector__name">Especial de la Casa - 3$</p>
+              <div class="selector__contador">
+                <!-- input chica -->
+                <input class="item__input" class="selector__input" type="number" name="1" id="muzarellaChica">
+                <div class="selector__btns">
+                  <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+                  <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- muzarella y jamon -->
+        <div class="item">
+          <!-- item title -->
+          <h3>Especial de la Casa II</h3>
+          <!-- item descripcion -->
+          <p class="item__description">Arroz, Pollo y Jamón.</p>
+          <div class="selector__container">
+            <div class="selector">
+              <!-- selector name chica -->
+              <p class="selector__name">Especial de la Casa II - 4$</p>
+              <div class="selector__contador">
+                <!-- input chica -->
+                <input class="item__input" type="number" name="3" id="muzarellaJamonChica">
+                <div class="selector__btns">
+                  <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+                  <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pizza americana -->
+        <div class="item">
+          <!-- item title -->
+          <h3>Especial de la Casa III</h3>
+          <!-- item descripcion -->
+          <p class="item__description">Arroz, Jamón, Pollo, Carne y Camarones.</p>
+          <div class="selector__container">
+            <div class="selector">
+              <!-- selector name chica -->
+              <p class="selector__name">Especial de la Casa III - 4.5$</p>
+              <div class="selector__contador">
+                <!-- input chica -->
+                <input class="item__input" type="number" name="5" id="americanaChica">
+                <div class="selector__btns">
+                  <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+                  <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Pizza de verdura -->
+        <div class="item">
+          <!-- item title -->
+          <h3>Combo I</h3>
+          <!-- item descripcion -->
+          <p class="item__description">Arroz, Carne y Jamón + Chop Suey</p>
+          <div class="selector__container">
+            <div class="selector">
+              <!-- selector name chica -->
+              <p class="selector__name">Combo I - 5.5$</p>
+              <div class="selector__contador">
+                <!-- input chica -->
+                <input class="item__input" type="number" name="7" id="verduraChica">
+                <div class="selector__btns">
+                  <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+                  <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="item">
+          <!-- item title -->
+          <h3>Combo II</h3>
+          <!-- item descripcion -->
+          <p class="item__description">Arroz, Pollo, Jamón y Camarones + Chop Suey</p>
+          <div class="selector__container">
+            <div class="selector">
+              <!-- selector name chica -->
+              <p class="selector__name">Combo II - 6$</p>
+              <div class="selector__contador">
+                <!-- input chica -->
+                <input class="item__input" type="number" name="8" id="verduraChica">
+                <div class="selector__btns">
+                  <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+                  <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <p class="monto-total-container">Monto Total: <i id="monto-total-index"></i></p>
+      </div>
+      <!-- opciones -->
+      <div class="opciones__container">
+        <!-- opciones de entrega -->
+        <div class="opciones">
+          <p>Seleccioná la opcion de <strong>envio</strong> que prefieras</p>
+          <div class="opciones__radios">
+
+            <input type="radio" name="a" id="delivery" value="delivery" checked>
+            <label for="delivery">delivery </label>
+
+
+            <input type="radio" name="a" id="lo-retiro" value="lo-retiro">
+            <label for="lo-retiro">lo retiro
+            </label>
+
+          </div>
+        </div>
+        <!-- opciones de pago -->
+        <div class="opciones">
+          <p>Seleccioná la opcion de <strong>pago</strong> que prefieras</p>
+          <div class="opciones__radios">
+
+            <input type="radio" name="b" id="efectivo" value="efectivo" checked>
+            <label for="efectivo">Efectivo</label>
+
+            <input type="radio" name="b" id="mercado-pago" value="pago-movil">
+            <label for="mercado-pago">Pago Movil</label>
+
+          </div>
+        </div>
+      </div>
+      <!-- formulario de datos personales -->
+      <div class="datos-personales">
+        <!-- monto con el que paga -->
+        <label for="paga-con">Monto exacto con el que va a pagar</label>
+        <input class="datos-personales__input" type="number" name="c" id="paga-con" placeholder="Monto">
+        <!-- nombre -->
+        <label for="tu-nombre">Tu nombre</label>
+        <input class="datos-personales__input" type="text" name="d" id="tu-nombre" placeholder="Maria Barrios">
+        <!-- numero de whatsapp -->
+        <label for="numero-wp">Número de WhatsApp </label>
+        <input class="datos-personales__input" type="number" name="e" id="numero-wp" placeholder="WhatsApp">
+        <!-- calle -->
+        <label for="calle">Direccion</label>
+        <input class="datos-personales__input" type="text" name="f" id="calle" placeholder="150">
+        <!-- numero de calle-->
+        <label for="numero-domicilio">Numero de domicilio</label>
+        <input class="datos-personales__input" type="text" name="g" id="numero-domicilio" placeholder="1920">
+        <!-- entre las calles -->
+        <label for="entre-calles">Entre calles</label>
+        <input class="datos-personales__input" type="text" name="h" id="entre-calles" placeholder="Dorrego y La Pampa">
+        <!-- aclaraciones -->
+        <label for="aclaraciones">Aclaraciones</label>
+        <input class="datos-personales__input" type="text" name="i" id="aclaraciones"
+          placeholder="El timbre no funciona">
+      </div>
+      <!-- boton enviar -->
+      <button id="btn__submit" type="submit">Generar pedido</button>
+    </form>
+
+
+
+
+  </div>
+  <!-- Javascript files-->
+  <script src="index.js"></script>
+  <script src="js/main.js"></script>
+  <script src="ws.js"></script>
+
+  <script>
+    index.init();
+  </script>
+</body>
+
+</html>
